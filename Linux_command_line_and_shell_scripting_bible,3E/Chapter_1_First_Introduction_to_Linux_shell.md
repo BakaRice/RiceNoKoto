@@ -35,30 +35,7 @@ linux 可以被划分成四个部分（Linux内核、GNU工具、图形化桌面
    网络设备是指采用数据包发送给和接收数据的设备，包括各种网卡和一个特殊的回环设备。这个回环设备允许Linux系统使用常见的网络编程协议同自身通信。
 4. 文件系统管理  
    Linux内核支持通过不同类型的文件系统从硬盘种读写数据。除了自有的诸多文件系统外，Linux还支持从其他操作系统采用的文件系统中读写数据。内核必须在编译时就加入对所有可能用到的文件系统的支持，
-
-   |文件系统| 描述|
-   |--|--|
-   |ext| Linux扩展文件系统，最早的Linux文件系统
-   |ext2| 第二扩展文件系统，在ext的基础上提供更多的功能|
-   |ext3|第三扩展文件系统，支持日志功能|
-   |ext4|第四扩展文件系统，支持高级日志功能|
-   |hpfs|OS/2高性能文件系统|
-   |jfs|IBM日志文件系统|
-   |iso9660|ISO 9660 文件系统(CD-ROM)|
-   |minix|MINIX文件系统|
-   |msdoc|微软的FAT16|
-   |ncp|Netware文件系统|
-   |nfs|网络文件系统|
-   |ntfs|支持micrsoft NT文件系统|
-   |proc|访问系统信息|
-   |ReiserFS|高级Linux文件系统，能提供更好的性能和硬盘恢复功能|
-   |smb|支持网络访问的Samba SMB文件系统|
-   |sysv|较早期的Unix文件系统|
-   |ufs|BSD文件系统|
-   |umsdos|建立在msdos上的类Unix文件系统|
-   |vfat|Windows 95文件系统（FAT32)|
-   |XFS|高性能64位日志文件系统|
-
+  <table><thead><tr><th style="text-align:left;"><span>文件系统</span></th><th style="text-align:left;"><span>描述</span></th></tr></thead><tbody><tr><td style="text-align:left;"><span>ext</span></td><td style="text-align:left;"><span>Linux扩展文件系统，最早的Linux文件系统</span></td></tr><tr><td style="text-align:left;"><span>ext2</span></td><td style="text-align:left;"><span>第二扩展文件系统，在ext的基础上提供更多的功能</span></td></tr><tr><td style="text-align:left;"><span>ext3</span></td><td style="text-align:left;"><span>第三扩展文件系统，支持日志功能</span></td></tr><tr><td style="text-align:left;"><span>ext4</span></td><td style="text-align:left;"><span>第四扩展文件系统，支持高级日志功能</span></td></tr><tr><td style="text-align:left;"><span>hpfs</span></td><td style="text-align:left;"><span>OS/2高性能文件系统</span></td></tr><tr><td style="text-align:left;"><span>jfs</span></td><td style="text-align:left;"><span>IBM日志文件系统</span></td></tr><tr><td style="text-align:left;"><span>iso9660</span></td><td style="text-align:left;"><span>ISO 9660 文件系统(CD-ROM)</span></td></tr><tr><td style="text-align:left;"><span>minix</span></td><td style="text-align:left;"><span>MINIX文件系统</span></td></tr><tr><td style="text-align:left;"><span>msdoc</span></td><td style="text-align:left;"><span>微软的FAT16</span></td></tr><tr><td style="text-align:left;"><span>ncp</span></td><td style="text-align:left;"><span>Netware文件系统</span></td></tr><tr><td style="text-align:left;"><span>nfs</span></td><td style="text-align:left;"><span>网络文件系统</span></td></tr><tr><td style="text-align:left;"><span>ntfs</span></td><td style="text-align:left;"><span>支持micrsoft NT文件系统</span></td></tr><tr><td style="text-align:left;"><span>proc</span></td><td style="text-align:left;"><span>访问系统信息</span></td></tr><tr><td style="text-align:left;"><span>ReiserFS</span></td><td style="text-align:left;"><span>高级Linux文件系统，能提供更好的性能和硬盘恢复功能</span></td></tr><tr><td style="text-align:left;"><span>smb</span></td><td style="text-align:left;"><span>支持网络访问的Samba SMB文件系统</span></td></tr><tr><td style="text-align:left;"><span>sysv</span></td><td style="text-align:left;"><span>较早期的Unix文件系统</span></td></tr><tr><td style="text-align:left;"><span>ufs</span></td><td style="text-align:left;"><span>BSD文件系统</span></td></tr><tr><td style="text-align:left;"><span>umsdos</span></td><td style="text-align:left;"><span>建立在msdos上的类Unix文件系统</span></td></tr><tr><td style="text-align:left;"><span>vfat</span></td><td style="text-align:left;"><span>Windows 95文件系统（FAT32)</span></td></tr><tr><td style="text-align:left;"><span>XFS</span></td><td style="text-align:left;"><span>高性能64位日志文件系统</span></td></tr></tbody></table>
 
    Linux内核采用虚拟文件系统（Virtual File System，VFS)作为和每个文件系统交互的接口。这为Linux内核同任何类型文件系统通信提供了一个标准接口。当每个文件系统都被挂载和使用时。VFS将信息都缓存在内存中。
 
