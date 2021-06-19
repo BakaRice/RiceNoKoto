@@ -1,1 +1,1 @@
-gitbook build && docker restart 0ad566b15c3d
+gitbook install && gitbook build && docker restart 0ad566b15c3d
