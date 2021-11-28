@@ -1,11 +1,14 @@
 # RiceNoKoto
 > 用于记录阅读笔记的地方
 
+![Aragaki yui](static/backimg2.jpg)
+
 书籍列表：
 1. [Linux命令行与shell脚本编程大全](Linux_command_line_and_shell_scripting_bible,3E/README.md)
 2. [みんなの日本語 初级II](Minna_no_Nihongo_Hatsuba_II/README.md)
-3. [高性能MySQL]()
-4. [Spring Cloud 微服务架构进阶]()
+3. [Java8 函数式编程](java-8-lambdas-exercises/README.md)
+4. [高性能MySQL]()
+5. [Spring Cloud 微服务架构进阶]() 
 
 ---
 

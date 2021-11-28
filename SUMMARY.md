@@ -9,5 +9,9 @@
     * [第2章 走进Shell](Linux_command_line_and_shell_scripting_bible,3E/Chapter_2_go_into_shell.md)
     * [第3章 基本的bash shell命令](Linux_command_line_and_shell_scripting_bible,3E/Chapter_3_basic_bash_shell.md)
 
+* [Java8函数式编程](java-8-lambdas-exercises/README.md)
+    * [什么是函数式编程?](java-8-lambdas-exercises/what-is-functional-programming.md)
+    * [流 Stream！](java-8-lambdas-exercises/stream.md)
+
 * [みんなの日本語 初级II](Minna_no_Nihongo_Hatsuba_II/README.md)
     * [みんなの日本語 初級Ⅱ ２６](Minna_no_Nihongo_Hatsuba_II/lesson_26.md)

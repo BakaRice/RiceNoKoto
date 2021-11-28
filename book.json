@@ -11,14 +11,21 @@
      },
     "plugins": [
       "emphasize",  
-      "highlight",  
+      "highlight",
+      "expandable-chapters",  
       "tbfed-pagefooter" ,
+      "edit-link",
+      "pageview-count",
       "-lunr",
        "-search",
         "search-pro",
         "icp"
       ],
     "pluginsConfig": {
+      "edit-link": {
+        "base": "//github.com/yulilong/book/edit/master",
+        "label": "编辑此页面"
+   },
         "tbfed-pagefooter": {
         "copyright":"Copyright",
         "modify_label": "该文件修订时间：",
