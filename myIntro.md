@@ -21,9 +21,9 @@
 <div id="gitalk-container"></div>
 <script>
   var gitalk = new Gitalk({
-    "clientID": "c4f406802de32c902502",
-    "clientSecret": "ff639b6b21b1897960879a07600e9dc47f2545b9",
-    "repo": "BookRead",
+    "clientID": "3983fb3cdd8f11272309",
+    "clientSecret": "20717e25757deef635192b5b19aef6c34c99fd43",
+    "repo": "RiceNoKoto",
     "owner": "BakaRice",
     "admin": ["BakaRice"],
     "id": location.pathname,      
