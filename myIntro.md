@@ -10,6 +10,7 @@
 3. [Java8 函数式编程](java-8-lambdas-exercises/README.md)
 4. [高性能MySQL]()
 5. [Spring Cloud 微服务架构进阶]() 
+6. [生活相关](lift/README.md)
 
 ---
 
